@@ -94,19 +94,19 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1179.6666666666667,1946" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1179.6666666666667,2121" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge: ACME System 1 - Employees" sap:VirtualizedContainerService.HintSize="484,1923" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="13c8c586-9251-4cdc-b4b2-8ab4c2b3d2c2" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge: ACME System 1 - Employees" sap:VirtualizedContainerService.HintSize="484,2098" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="13c8c586-9251-4cdc-b4b2-8ab4c2b3d2c2" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1683" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1858" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="EmployeeName" />
               <Variable x:TypeArguments="x:String" Name="Details" />
@@ -163,7 +163,7 @@
                 <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/employees" ContentHash="FVyOrpWQHUOGTMANTe7myw" DesignTimeRectangle="677, 323, 565, 416" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl parentid='openModalUser' tag='DIV' type='' class='modal-content-user' aaname='                                                                                                                                               ' check:innerText='Name:&amp;#xA;Rita A Latham&amp;#xA;Phone:&amp;#xA;208-726-2872&amp;#xA;Birthdate:&amp;#xA;1/19/1972&amp;#xA;Email:&amp;#xA;vincenza1976@gmail.com&amp;#xA;Close' /&gt;" Guid="32595b7b-67fe-4389-9224-9eaa49e4029b" InformativeScreenshot="d7c6574d6cb4a13f27eb7b3c69caa22f.png" Reference="ycqNidOgEk688QGmkClHzw/_YErWB0Be0-NFPF3NAn9IQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
               </uix:NGetText.Target>
             </uix:NGetText>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;Details ha il seguente valore: &quot; + Details]" />
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[&quot;Details ha il seguente valore: &quot; + Details]" />
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13c8c586-9251-4cdc-b4b2-8ab4c2b3d2c2" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/employees" CVScreenId="5de9dcfb-0d91-4fff-91af-074fd5f73116" ContentHash="JkCzZQGolky0lmCpP8Y_PQ" CvElementArea="899, 627, 121, 68" CvTextArea="918, 645, 81, 28" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="902, 630, 115, 63" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='openModalUser' tag='BUTTON' type='button' class='btn btn-primary btn-user' aaname='Close' check:innerText='Close' /&gt;" Guid="735ad666-68ed-48e4-a116-803a78353704" InformativeScreenshot="1603fdd8333b12b1d5c788ea416eba4b.png" Reference="tpR-KelH00e5ATUjEfZEQg/yrZWcLMKtkKar3KwkcVTKg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
@@ -179,7 +179,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Refresh'" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" Version="V4">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Refresh'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/employees" CVScreenId="7c4fabee-d87e-42f9-9fa5-7b3edd61f38f" ContentHash="JqUQqbxEL0q_R9oe38kl7g" CvElementArea="934, 824, 155, 63" CvTextArea="974, 845, 75, 19" CvTextArgument="Refresh" CvType="Button" DesignTimeRectangle="937, 826, 150, 60" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl id='buttonRefres' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='buttonRefres' tag='BUTTON' type='button' class='skewBtn blue' aaname='Refresh' check:innerText='Refresh' /&gt;" Guid="d2f45821-2791-4895-b79f-8142d51550af" ImageBase64="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" InformativeScreenshot="75b85220fc57d5e1fea0d4b61a6a2046.png" Reference="ycqNidOgEk688QGmkClHzw/iV5Yi7XuIkm0p_93gKIffA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
               </uix:NClick.Target>
@@ -194,6 +194,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;Fine&quot;]" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
